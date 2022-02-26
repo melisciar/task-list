@@ -3,14 +3,15 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
+  title: string = 'Lista de tareas';
+  constructor() {}
 
-  title:string = "Lista de tareas";
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  toggleAddTask() {
+    console.log('Anduvo reynaaaa');
   }
-
 }
