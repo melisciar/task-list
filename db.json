@@ -23,6 +23,18 @@
       "day": "hoy",
       "reminder": true,
       "id": 5
+    },
+    {
+      "text": "prueba",
+      "day": "2022-02-27",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "algo",
+      "day": "2022-02-15T18:43",
+      "reminder": true,
+      "id": 7
     }
   ]
 }
